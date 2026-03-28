@@ -4,6 +4,6 @@ on:
   workflow_dispatch:
 jobs:
   my_first_workflow:
-    run-on: ubuntu-24.04
+    runs-on: ubuntu-24.04
     steps:
       - run: echo "My first workflow is successfull"
